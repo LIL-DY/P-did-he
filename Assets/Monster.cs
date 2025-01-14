@@ -12,6 +12,7 @@ public class MonsterAI : MonoBehaviour
     public float stopDistance = 1f; //Avstånd vid vilket monstret stannar
     public float detectionRadius = 5f; //Radius inom vilket monstret upptäcker spelaren
     public int hunt = 0;
+
     private void Update()
     {
 
@@ -27,7 +28,15 @@ public class MonsterAI : MonoBehaviour
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
             //Om avståendet är större än stopDistance, rör monstret mot spelaren
-            if (distanceToPlayer <= detectionRadius)
+
+            if (distanceToPlayer > detectionRadius)
+            {
+
+            }
+
+                if (distanceToPlayer <= detectionRadius)
+
+
             {
                 hunt = 1;
                 if (hunt >= 1)
@@ -50,11 +59,6 @@ public class MonsterAI : MonoBehaviour
         }
 
     }
-
-
-
-
-
 
 
 

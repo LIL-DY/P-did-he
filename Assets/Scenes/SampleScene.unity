@@ -246,9 +246,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1230865920}
-  speed: 2
+  speed: 6
   stopDistance: 1
-  detectionRadius: 1
+  detectionRadius: 4
+  hunt: 0
 --- !u!212 &1190942794
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -47,3 +47,6 @@ TagManager:
   - name: Foreground
     uniqueID: 3415530053
     locked: 0
+  - name: "tr\xE4d"
+    uniqueID: 1738735409
+    locked: 0

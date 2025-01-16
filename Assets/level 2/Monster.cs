@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class MonsterAI : MonoBehaviour
+public class Monster : MonoBehaviour
 {
     public Transform player; //Referens till spelarens transform
     public float speed = 2f; //Hastigheten på monstret

@@ -16,10 +16,16 @@ public class Lighter : MonoBehaviour
     }
     void Update()
     {
+        bool On;
         if(Input.GetKeyDown(KeyCode.E))
         {
             myLight.enabled = !myLight.enabled;
         }
+        if (myLight.enabled = !myLight.enabled)
+        {
+            On = true;
+        }
+
     }
 
 
